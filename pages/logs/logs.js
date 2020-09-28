@@ -1,61 +1,46 @@
-// pages/index/index.js
+// pages/logs/logs.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    msg: '初始化的测试数据'
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('onLoad()')
-    // setTimeout(()=>{
-    //   this.setData({ msg: '修改后的数据' })
-    //   console.log(this.data.msg)
-    // },3000) 
-  },
-  // handleParent(){
-  //   console.log('parent')
-  // },
-  // handleChildren(){
-  //   console.log('child')
-  // },
-  toLogs(){
-    wx.navigateTo({
-      url: '/pages/logs/logs',
-    })
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log('onReady()')
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log('onShow()')
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log('onHide()')
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log('onUnload()')
+
   },
 
   /**
